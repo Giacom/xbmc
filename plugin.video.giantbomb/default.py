@@ -13,7 +13,7 @@ def CATEGORIES():
     account_linked = False
     user_api_key = my_addon.getSetting('api_key')
     if user_api_key:
-        response = urllib2.urlopen(API_PATH + '/chats/?api_key=' + user_api_key + '&format=json')
+        response = urllib2.urlopen(API_PATH + '/video_types/?api_key=' + user_api_key + '&format=json')
         data = simplejson.loads(response.read())
         if data['status_code'] == 100:
             # Revert to the default key
