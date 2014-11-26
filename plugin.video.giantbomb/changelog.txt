@@ -1,3 +1,6 @@
+[B]3.6[/B]
+- Using the new API URL to fix the plugin.
+
 [B]3.5[/B]
 - Added Chrono Trigger endurance run submenu
 
