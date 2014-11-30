@@ -142,9 +142,15 @@ def VIDEOLINKS(url, name):
             if 'hd_url' in vid:
                 url = vid['hd_url'] + '&api_key=' + API_KEY
             else:
-                url = vid['high_url']
+                if vid['high_url'] is not None:
+                    url = vid['high_url']
+                else:
+                    continue
         else:
-            url = vid[quality]
+            if vid[quality] is not None:
+                url = vid[quality]
+            else:
+                continue
         thumbnail = vid['image']['super_url']
         addLink(name,url,thumbnail)
 
