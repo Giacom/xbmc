@@ -1,1 +1,3 @@
-You can download the giantbomb plugin by clicking on the ["Download Zip"](https://github.com/Giacom/xbmc/archive/giantbomb.zip) on this page and then manually installing it onto your XBMC system.
+__THIS IS NO LONGER SUPPORTED__
+
+You can find an even better and supported version here: https://github.com/jimporter/giantbomb-kodi/releases
